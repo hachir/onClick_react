@@ -1,0 +1,23 @@
+{
+    "name": "click-game",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "font-awesome": "^4.7.0",
+      "gh-pages": "^1.1.0",
+      "npm": "^5.8.0",
+      "react": "^16.3.1",
+      "react-dom": "^16.3.1",
+      "react-flip-move": "^3.0.1",
+      "react-scripts": "1.1.4"
+    },
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "homepage": "https://github.com/hachir/onClick_react"
+  }
