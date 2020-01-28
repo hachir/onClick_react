@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "image": "react.png"
+  },
+  {
+    "id": 2,
+    "name": "Angular",
+    "image": "angular.png"
+  },
+  {
+    "id": 3,
+    "name": "HTML5",
+    "image": "html5.png"
+  },
+  {
+    "id": 4,
+    "name": "CSS3",
+    "image": "css3.png"
+  },
+  {
+    "id": 5,
+    "name": "Node",
+    "image": "node.png"
+  },
+  {
+    "id": 6,
+    "name": "Express",
+    "image": "express.png"
+  },
+  {
+    "id": 7,
+    "name": "MongoDB",
+    "image": "mongo.png"
+  },
+  {
+    "id": 8,
+    "name": "Javascript",
+    "image": "javascript.png"
+  },
+  {
+    "id": 9,
+    "name": "Bootstrap",
+    "image": "bootstrap.png"
+  },
+  {
+    "id": 10,
+    "name": "VueJS",
+    "image": "vue.png"
+  },
+  {
+    "id": 11,
+    "name": "NPM",
+    "image": "npm.png"
+  },
+  {
+    "id": 12,
+    "name": "Webpack",
+    "image": "webpack.png"
+  }
+]
