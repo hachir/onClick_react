@@ -19,3 +19,26 @@ header {
   text-align: center;
   font-family: 'Fira Mono', sans-serif;
 }
+header img {
+    width: 60px;
+    transform: translateY(-3px);
+  }
+  
+  .main {
+    margin-bottom: 150px;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    background-color: #343A40;
+    border-top: 5px solid #56A247;
+  }
+  
+  footer i {
+    color: #fff;
+    line-height: 45px !important;
+  }
