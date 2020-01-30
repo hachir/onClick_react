@@ -63,3 +63,23 @@ updateHighScore = () => {
       highScore: this.state.currentScore
     })
 };
+render() {
+    return (
+        <div>
+          <header>
+            <h1>{`onClick={`}<img src="./images/react.png" alt="React Logo"/>{`}`}</h1>
+          </header>
+          <div className="main">
+            <GameBoard currentScore={this.state.currentScore}
+                       highScore={this.state.highScore}
+                       tiles={this.state.gameTiles}
+                       handleClick={this.handleTileClick}
+                       animate={this.state.animate}/>
+
+          </div>
+        </div>
+    );
+  }
+}
+
+export default App;
