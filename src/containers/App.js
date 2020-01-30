@@ -31,3 +31,35 @@ class App extends Component {
     const gameTiles = [...this.state.gameTiles];
 
     let clickedTile = gameTiles.find(tile => tile.id === tileId);
+ // Determine outcome
+ if (clickedTile.previouslyClicked) {
+    this.endGameAndReset();
+  } else {
+    clickedTile.previouslyClicked = true;
+    this.setState({
+      currentScore: this.state.currentScore + 1,
+      gameTiles: this.shuffleTiles(gameTiles),
+      animate: false
+    });
+  }
+};
+
+endGameAndReset() {
+  this.updateHighScore();
+  const resetData = this.state.gameTiles.map(t => {
+    t.previouslyClicked = false;
+    return t;
+  });
+  this.setState({
+    currentScore: 0,
+    animate: true,
+    gameTiles: resetData
+  });
+}
+
+updateHighScore = () => {
+  if (this.state.currentScore > this.state.highScore)
+    this.setState({
+      highScore: this.state.currentScore
+    })
+};
