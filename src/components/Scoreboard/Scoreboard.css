@@ -1,0 +1,57 @@
+.instructions {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.scores {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.scores h2 {
+    display: inline-block;
+    padding: 10px;
+}
+
+.highScore {
+    color: #7de27d;
+}
+
+.highScore i {
+    color: #e2e200;
+}
+
+@keyframes shake {
+    from,
+    to {
+        transform: translate3d(0, 0, 0);
+        color: #fff;
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translate3d(-10px, 0, 0);
+        color: red;
+
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translate3d(10px, 0, 0);
+    }
+}
+
+.shake {
+    animation-duration: 1s;
+    animation-name: shake;
+}
