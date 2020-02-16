@@ -9,3 +9,17 @@
     position: relative;
     box-shadow: 3px 3px 6px #999, 0 3px 6px #999;
 }
+.card:hover {
+    box-shadow: 8px 8px 8px #999, 0 8px 8px #999;
+}
+
+.card > img {
+    height: 150px;
+    position: absolute;
+    overflow: hidden;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
